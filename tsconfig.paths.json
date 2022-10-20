@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@components/*": ["./src/components/*"],
+			"@utils/*": ["./src/utils/*"],
+			"@api/*": ["./src/api/*"],
+			"@storage/*": ["./src/storage/*"],
+			"@paycomet-sdk/*": ["./src/sdk/paycomet-sdk-react/*"],
+			"@assets/*": ["./src/assets/*"],
+			"@pages/*": ["./src/pages/*"],
+			"@wowtypes/*": ["./src/types/*"],
+			"@kant": ["./src/engines/kant/Kant"],
+			"@davinci/*": ["./src/engines/davinci/*"],
+			"@eddie/*": ["./src/engines/eddie/*"],
+			"@donatello/*": ["./src/engines/donatello/*"],
+			"@escohotado/*": ["./src/engines/escohotado/*"],
+			"@konextcomponents/*": ["./src/konextcomponents/*"]
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"editor.formatOnType": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"colorize.languages": ["typescript", "javascript", "css", "scss"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": ["javascript", "typescript"],
+	"explorer.autoReveal": true
+}
