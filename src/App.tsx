@@ -29,14 +29,8 @@ import TeacherDetailedSchedule from "@pages/Employees/pages/TeacherDetailed/page
 import TeacherDetailedData from "@pages/Employees/pages/TeacherDetailed/pages/TeacherDetailedData"
 import Permission from "@pages/Permissions"
 import PermissionDetailed from "@pages/Permissions/pages/PermissionDetailed"
-import useMe from "@api/auth/useMe"
 
 function App() {
-	const { data, status } = useMe() // hacer la llamada a la api -> queryClient (cache) "user"
-
-	if (status === "loading") return <>pillando el usuario</>
-	if (status === "error") return <>fallo al pillar el usuario</>
-
 	return (
 		<GoogleMapsProvider>
 			<ChakraProvider theme={theme}>
